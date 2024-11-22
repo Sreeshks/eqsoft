@@ -38,6 +38,7 @@ class _MainPageState extends State<MainPage> {
     ContactPage(),
   ];
 
+  // Method to handle navigation
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
@@ -55,7 +56,7 @@ class _MainPageState extends State<MainPage> {
               TypewriterAnimatedText(
                 'EqSoft Business Solutions',
                 textStyle: TextStyle(
-                  fontSize: 20.0,
+                  fontSize: 22.0, // Adjusted for better readability
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),

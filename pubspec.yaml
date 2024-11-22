@@ -27,8 +27,9 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
-dependencies:
 
+
+dependencies:
   flutter:
     sdk: flutter
   flutter_rating_bar: ^4.0.1
@@ -36,6 +37,12 @@ dependencies:
   url_launcher: ^6.1.10
   font_awesome_flutter: ^10.1.0
   animated_text_kit: ^4.2.2
+  http: ^1.2.0  # Updated to the latest version
+  sqflite: ^2.3.0
+  path: ^1.8.0
+
+
+
   
 
 
