@@ -1,3 +1,4 @@
+import 'package:eqsoft/pages/api_service.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'pages/services_page.dart';
@@ -36,6 +37,7 @@ class _MainPageState extends State<MainPage> {
     GalleryPage(),
     AboutPage(),
     ContactPage(),
+    api()
   ];
 
   // Method to handle navigation
@@ -123,6 +125,11 @@ class _MainPageState extends State<MainPage> {
             icon: Icon(Icons.contact_page_outlined),
             activeIcon: Icon(Icons.contact_page, color: Colors.red),
             label: 'Contact',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.api),
+            activeIcon: Icon(Icons.api, color: Colors.red),
+            label: 'api data',
           ),
         ],
       ),

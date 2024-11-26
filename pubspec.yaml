@@ -37,7 +37,7 @@ dependencies:
   url_launcher: ^6.1.10
   font_awesome_flutter: ^10.1.0
   animated_text_kit: ^4.2.2
-  http: ^1.2.0  # Updated to the latest version
+  http: 0.13.4  # Updated to the latest version
   sqflite: ^2.3.0
   path: ^1.8.0
 
